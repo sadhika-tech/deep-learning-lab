@@ -49,6 +49,39 @@ The CIFAR-10 dataset contains 60,000 colour images belonging to 10 classes.
 
 ---
 
+## Model Architecture
+
+The CNN model consists of the following layers:
+
+```text
+Input Layer
+32 × 32 × 3
+        ↓
+Conv2D
+16 Filters, 3 × 3 Kernel, ReLU
+        ↓
+MaxPooling2D
+2 × 2 Pool Size
+        ↓
+Conv2D
+32 Filters, 3 × 3 Kernel, ReLU
+        ↓
+MaxPooling2D
+2 × 2 Pool Size
+        ↓
+Flatten
+        ↓
+Dense
+128 Neurons, ReLU
+        ↓
+Dropout
+        ↓
+Dense
+10 Neurons, Softmax
+        ↓
+Output
+10 Classes
+
 ## Technologies Used
 
 - Python
