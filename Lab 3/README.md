@@ -74,8 +74,6 @@ Flatten
 Dense
 128 Neurons, ReLU
         ↓
-Dropout
-        ↓
 Dense
 10 Neurons, Softmax
         ↓
