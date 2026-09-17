@@ -29,7 +29,7 @@ its own set of cells: build → train → combined plot → summary table.
 
 1. **Setup** — imports, seeds, output directories
 2. **Data loading** — 85/15 train/val split of the TFDS `train` split; `test`
-   split held out untouched until Section 12
+   split
 3. **Backbone** — shared frozen MobileNetV2 feature extractor
 4. **Weight Initialization** — Zeros, RandomNormal, GlorotUniform, HeNormal
 5. **Regularization** — none, dropout, L2, dropout+L2 (with generalization gap)
