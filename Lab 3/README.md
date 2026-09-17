@@ -81,6 +81,7 @@ Dense
         ↓
 Output
 10 Classes
+```
 
 ## Technologies Used
 
