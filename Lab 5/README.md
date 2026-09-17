@@ -32,7 +32,7 @@ its own set of cells: build → train → combined plot → summary table.
    split
 3. **Backbone** — shared frozen MobileNetV2 feature extractor
 4. **Weight Initialization** — Zeros, RandomNormal, GlorotUniform, HeNormal
-5. **Regularization** — none, dropout, L2, dropout+L2 (with generalization gap)
+5. **Regularization** — none, dropout, L2
 6. **Batch Normalization** — with vs. without
 7. **Optimizers** — SGD, Momentum, RMSProp, Adam
 8. **Hyperparameter Tuning** — learning rate, batch size, dropout rate (one factor at a time)
